@@ -1,0 +1,104 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+
+# Compiled files
+*.o
+*.so
+*.out
+*.pyc
+*.class
+*.exe
+*.dll
+*.dylib
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package files
+*.gem
+*.gz
+*.zip
+*.tar
+*.tgz
+*.7z
+
+# IDEs
+.idea/
+.vscode/
+.project
+*.sublime-workspace
+*.sublime-project
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Coverage reports
+coverage.*
+.nyc_output/
+*.lcov
+
+# Test artifacts
+*.seed
+*.retry
+*.prof
+*.cov
+*.coverage
+*.trace
+
+# Security
+*.key
+*.pem
+*.crt
+*.cer
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+
+# Static generated files
+out/
+dist/
+build/
+public/
