@@ -18,6 +18,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+*.vagrant
+vagrants/
+*.vagrant.*
+
 # Python
 __pycache__/
 *.py[cod]
