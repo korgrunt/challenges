@@ -15,6 +15,7 @@ app.use(express.json());
 // Database connection with these credentials => user: "database_admin12345" and pass: "H4rd_4nd_s3creT_p4s5", so, flag is => FLAG{<user>:<pass>}
 
 
+
 app.get('/', (req, res) => {
     res.send('Bienvenue sur le serveur ! dites bonjours a l\'API');
 });
