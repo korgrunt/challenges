@@ -106,3 +106,23 @@ out/
 dist/
 build/
 public/
+
+# Rust
+/target/
+**/*.rs.bk
+
+# Rust build artifacts
+*.rlib
+*.rmeta
+*.dSYM/
+*.profraw
+
+# Rust tooling
+Cargo.lock
+.cargo/
+.xtask
+
+
+
+
+
